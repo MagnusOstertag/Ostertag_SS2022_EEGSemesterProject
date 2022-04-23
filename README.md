@@ -28,7 +28,7 @@ As other helper functions, I am using code from [Marijn van Vliet ](https://gith
 
 1. download the [p3 dataset](https://figshare.com/ndownloader/files/25672073?private_link=5dcdc5388d4b3f37296d) and extract it to `Data/`. Also download the [subject demographics](?) and put it into `Data/`
 2. create and use a virtual python environment (`python3 -m venv venv` and `source venv/bin/activate`) and install the requirements with `pip3 install -r requirements.txt`
-3. start jupyter notebook with `jupyter notebook` and run selected notebooks
+3. start jupyter notebook with `jupyter notebook` and run selected notebooks, or use `VS code` with the given `settings.json`
 
 ## literature
 

@@ -12,6 +12,10 @@ seaborn
 # jupyter
 notebook
 
+# linting
+flake8
+pylint
+
 # io
 pathlib
 # os
