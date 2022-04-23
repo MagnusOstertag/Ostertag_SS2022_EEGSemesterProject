@@ -14,7 +14,7 @@ fname = FileNames()
 fname.add('bids_root', "Data/p3")
 
 # participants analyzed
-participants = ('036', '024', '032')# ('001','025','040')
+participants = ('036', '024', '032')  # ('001','025','040')
 
 # monitor delay [s]
 monitor_delay = 0.026

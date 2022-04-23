@@ -1,0 +1,21 @@
+# EEG
+mne
+mne_bids
+
+# plotting
+matplotlib
+seaborn
+
+# helper for downloading
+-f https://github.com/ubcbraincircuits/osfclienttutorial
+
+# io
+pathlib
+os
+string
+datetime
+
+# maths
+numpy
+scipy
+pandas
