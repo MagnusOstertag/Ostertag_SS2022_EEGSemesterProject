@@ -9,10 +9,13 @@ seaborn
 # helper for downloading
 -f https://github.com/ubcbraincircuits/osfclienttutorial
 
+# jupyter
+notebook
+
 # io
 pathlib
-os
-string
+# os
+# string
 datetime
 
 # maths
