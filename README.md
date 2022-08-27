@@ -30,10 +30,18 @@ As other helper functions, I am using code from [Marijn van Vliet ](https://gith
 2. create and use a virtual python environment (`python3 -m venv venv` and `source venv/bin/activate`) and install the requirements with `pip3 install -r requirements.txt`
 3. start jupyter notebook with `jupyter notebook` and run selected notebooks, or use `VS code` with the given `settings.json`
 
+## P3
+
+Visual oddball experiment: The participants are shown one of the the five letters `A, B, C, D, E` in a random order with uniform probability for 200ms. One of the letters is the target letter (for a block of trails) and the participants have to indicate whether the shown letter is the target letter. This is a so called frequent vs rare characterization. After a pause of 1200-1400ms another letter is shown.
+The `P3` component is elicited in decision-making, persons reacting to stimulus. The latency is $250-500\,ms$. 
+There were 40 (34 used) participants with a mean age of 22 in the study. For more details see Kappenman et al.
+
 ## literature
 
 - Kappenman, Farrens, Zhang, Stewart and Luck (2021): [ERP CORE: An open resource for human event-related potential research](https://doi.org/10.1016/j.neuroimage.2020.117465)
-- for a more technical and in detail documentation see also the wiki accompanying the published data and the P3 Analysis Procedures by the same authors
+  - for a more technical and in detail documentation see also the [wiki](https://osf.io/thsqg/) accompanying the published data and the P3 Analysis Procedures by the same authors. Especially the participant democraphics is published [there](https://osf.io/phxuk/)
+  - the [supplementary material](https://ars.els-cdn.com/content/image/1-s2.0-S1053811920309502-mmc1.pdf) to verify my results
+  - the [fork of the data](https://figshare.com/s/5dcdc5388d4b3f37296d) used for this course
 - van Vliet (2020): [Seven quick tips for analysis scripts in neuroimaging](https://doi.org/10.1371/journal.pcbi.1007358)
 - Widmann, Schröger and Maess (2015): [Digital ﬁlter design for electrophysiological data – a practical approach](https://doi.org/10.1016/j.jneumeth.2014.08.002)
 - de Cheveigne and Nelken (2019): [Filters: When, Why, and How (Not) to Use Them](https://doi.org/10.1016/j.neuron.2019.02.039)
