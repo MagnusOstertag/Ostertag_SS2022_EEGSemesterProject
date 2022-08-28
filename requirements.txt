@@ -1,6 +1,8 @@
 # EEG
 mne
 mne_bids
+pymatreader # for plotting
+python-picard # for ICA
 
 # plotting
 matplotlib
