@@ -35,6 +35,11 @@ pick = 'Pz'
 
 # permutation t-test
 n_permutations = 5000
+seed_ttest = 42
+significant_tmin = 0.255
+significant_tmax = 0.66
+recommended_tmin = 0.3
+recommended_tmax = 0.6
 
 # ICA
 seed_ICA = 42
