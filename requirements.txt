@@ -9,7 +9,7 @@ matplotlib
 seaborn
 
 # helper for downloading
--f https://github.com/ubcbraincircuits/osfclienttutorial
+git+https://github.com/ubcbraincircuits/osfclient
 
 # jupyter
 notebook
@@ -23,9 +23,6 @@ pathlib
 # os
 # string
 datetime
-
-# testing
-unittest
 
 # maths
 numpy
