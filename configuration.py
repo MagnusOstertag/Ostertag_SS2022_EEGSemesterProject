@@ -8,6 +8,7 @@ path_git_root = Path.cwd()
 path_results = Path(path_git_root / 'Results')
 path_ica_results = Path(path_results / 'ICA')
 path_annotation_results = Path(path_results / 'Annotations')
+path_subjects_df = Path(path_results / 'subjects_dataframe.csv')
 
 # data directories
 fname = FileNames()
