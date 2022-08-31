@@ -24,6 +24,9 @@ pathlib
 # string
 datetime
 
+# testing
+unittest
+
 # maths
 numpy
 scipy
