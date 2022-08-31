@@ -23,7 +23,7 @@ From four possible further analysis steps, the following two were chosen:
   - [tutorial](https://mne.tools/stable/auto_tutorials/time-freq/index.html)
   - TODO
 
-The results are saved to `Results/`. Specifically, there is a folder for the ICA-results with `ICA/` and a file for the ERP-results with `erp_date.csv`.
+The results are saved to `Results/`. Specifically, there is a folder for the ICA-results with `ICA/` and a file for the ERP-results with `subjects_dataframe.csv`. All epochs are saved in `epochs/`.
 
 I used a global configuration file with `configuration.py`.
 As other helper functions, I am using code from [Marijn van Vliet ](https://github.com/wmvanvliet) with `fnames` (for managing lists of filenames) and from [Benedikt Ehinger](https://github.com/behinger) with `eeg_utils` (was used mainly for the exercises) and `eeg_semesterproject` (to load precomputed cleaning data). I am grateful to them.
